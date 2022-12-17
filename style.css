@@ -1,0 +1,451 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #fef4e8;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+header{
+  background-image: url("obrazky/logo/bgtop.jpg"), linear-gradient(
+  180deg, rgba(255,230,205,1) 0%, rgb(255 241 228) 100%);
+  background-position: top center;
+  background-position: 50% -22px;
+  margin: 0;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 0px 10px rgba(254, 242, 230, 0.2);
+  border-bottom: 20px rgb(255 241 228 100%);
+}
+box-sizing: border-box;
+
+position: relative;
+width: 312px;
+height: 97px;
+overflow-x: scroll;
+
+background: #404040;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 2px;
+.menu{
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px  0;
+  padding-left: 20%;
+  padding-right: 21%;
+}
+
+.menu1 {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #ffebd8d4;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0;
+  padding-right: 7px;
+}
+
+.menu1 li {
+  display: inline-block;
+}
+
+.menu1 li a {
+  display: block;
+  color: #4E4E4E;
+  padding: 0 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.menu1 li a:hover {
+  opacity: 60%
+}
+
+main .uvod{
+  color: #405d27; /*alebo #82b74b*/
+  font-size: 20px;
+}
+
+
+hr{
+  border-collapse: collapse;
+  border: 0.5px solid #b3b3b3;
+  padding: 0;
+  border-spacing: 0;
+}
+
+main{
+  color: #84460a;
+  text-align: center;
+  font-size: 22px;
+  padding: 7px 12%;
+}
+
+main a{
+  text-decoration:none;
+  color: #84460a;
+}
+
+main a:hover{
+  color: #44280d;
+}
+
+main .obr_index img {
+  margin-bottom: 6px;
+  width: 35%;
+  box-shadow: 7px 7px 7px 0 rgba(0,0,0,0.20);
+  transition: 0.3s ease-in-out;
+}
+
+main .obr_index img:hover{
+  width: 39%;
+  box-shadow: 6px 6px 6px 0 rgba(0,0,0,0.60);
+  transition: 0.3s ease-in-out;
+}
+
+.figcaption{
+  font-size: 14px;
+}
+
+section{
+  text-align: justify;
+}
+
+ol li{
+  list-style-type: decimal;
+  display: list-item;
+  list-style-position: inside;
+  padding-top: 2%;
+}
+
+main section img{
+  width: 150px;
+  margin-left: 89.5%;
+  position: relative;
+}
+
+main section img:hover{
+  width: 150px;
+  box-shadow: 6px 6px 6px 0 rgba(0,0,0,0.40);
+  transition: 0.3s ease-in-out;
+}
+
+.dalsia_strana{
+  position: absolute;
+  right: 0;
+  bottom: 100px;
+
+}
+/* FOOTER*/
+footer{
+  display: inline-block;
+  background-color: #84460a;
+  color: #fef4e8;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+.otvorenie{
+  position: relative;
+  text-align: center;
+  padding-right: 3%;
+  display: inline-block;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.rezervacia{
+  display: inline-block;
+  padding: 0 10%;
+  position: relative;
+  font-size: 18px;
+}
+.rezervacia a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fef4e8;
+  transition:all .25s;
+
+}
+
+.rezervacia a:hover{
+  color: #fcdcb6;
+  text-decoration: none;
+}
+
+.nasi_priatelia {
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 20px;
+  display: inline-block;
+  color: #fef4e8;
+}
+
+.nasi_priatelia a{
+  display: inline-block;
+  text-decoration: none;
+  color: #fef4e8;
+  transition:all .25s;
+}
+
+.nasi_priatelia a:hover{
+  display: inline-block;
+  text-decoration: none;
+  color: #fcdcb6;
+}
+
+.socialne_siete{
+  padding: 20px 0;
+  display: inline-block;
+  float: right;
+
+
+}
+
+footer .socialne_siete a{
+  font-size: 40px;
+  color: #fef4e8;
+  transition:all .25s;
+  padding-left: 3%;
+  line-height: 50px;
+  display: inline-block;
+}
+
+
+footer .socialne_siete a:hover{
+  color: #fcdcb6;
+}
+
+footer .hore{
+  float: center;
+
+}
+
+footer .hore a{
+  display: inline-block;
+  font-size: 40px;
+  color: #fef4e8;
+  text-align: center;
+  transition:all .25s;
+
+}
+
+footer .hore a:hover{
+  color:#fcdcb6;
+}
+/* FOOTER*/
+
+
+
+/*KONTAKTY*/
+main .kontakt{
+  padding: 7px 12%;
+}
+
+main .kontakt a{
+  color: #84460a;
+}
+
+main .kontakt a:hover{
+  color: #301a03;
+}
+/*KONTAKTY*/
+
+/*ČAJOVY LUPEN*/
+.kanvicky{
+  text-align: left;
+  line-height: 30px;
+}
+.kanvicky img{
+  position: relative;
+  padding: 0;
+}
+
+.note{
+  color: #84460a;
+  margin: 25px 15%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.kategorie {
+  text-align:left;
+  line-height: 40px;
+  padding-top: 30px;
+}
+.kategorie li{
+  color: #405d27;
+}
+
+.kategorie li a{
+  color: #405d27;
+}
+.kategorie li a:hover{
+  color: #253617;
+  font: bold;
+}
+/*ČAJOVY LUPEN*/
+
+/*ČAJE*/
+.nazov{
+  text-align: left;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+.vyslovnost{
+  text-align: left;
+}
+
+.podnazov{
+  text-align: left;
+  font-style: italic;
+  line-height: 20px;
+
+}
+.popis{
+  text-align: justify;
+  line-height: 40px;
+}
+
+.nalevy{
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.caj{
+  text-align: left;
+  line-height: 40px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.popis_vf{
+  text-align: justify;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+/*NOVINKY*/
+.novinka_titul{
+  color: #405d27;
+  font-weight: bold;
+  text-align: left;
+}
+
+.novinka_titul a{
+  color: #405d27;
+  font-weight: bold;
+  text-align: left;
+}
+
+.novinka_titul a:hover{
+  color: #253617;
+  font-weight: bold;
+  text-align: left;
+}
+
+.novinka_popis{
+  text-align: justify;
+  line-height: 35px;
+  padding-bottom: 60px;
+
+}
+
+.novinka_popis a{
+  text-align: justify;
+  line-height: 35px;
+  padding-bottom: 40px;
+  color: #405d27;
+}
+
+.novinka_popis a:hover{
+  text-align: justify;
+  line-height: 33px;
+  padding-bottom: 40px;
+  color: #253617;
+}
+
+.napisane{
+  text-align: left;
+  display: inline;
+}
+
+.pozdrav_novinky{
+  color: #405d27;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  line-height: 30px;
+}
+
+.podnazov_novinky{
+  color: #84460a;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 5px;
+  line-height: 30px;
+}
+
+.darjeeling{
+  width: 20%;
+  float: center;
+  padding-bottom: 40px;
+}
+
+.anji{
+  width: 30%;
+  float: center;
+  padding-bottom: 40px;
+
+}
+
+.antivirovy_cajik{
+  width: 20%;
+  padding-bottom: 40px;
+  padding-left: 40px;
+}
+.obr_velky{
+  width: 50%;
+  padding-bottom: 40px;
+
+}
+.bylinky_zoznam ul{
+  list-style-type: none;
+  text-align: center;
+  line-height: 50px;
+  margin-right: 50px;
+}
+
+/*GALERIA*/
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+
+
+}
+.nahlad{
+  width: 350px;
+}
+th{
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+tr{
+  text-align: left;
+}
+
+th a{
+  color: #405d27;
+}
+
+th a:hover{
+  color: #253617;
+}
+
+td{
+  padding-bottom: 20px;
+}
